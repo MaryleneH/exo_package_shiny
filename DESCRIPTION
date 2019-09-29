@@ -1,0 +1,20 @@
+Package: ExoMary
+Title: Launch the shiny app exercise
+Version: 1.0.0.0
+Authors@R: 
+    person(given = "Marylene",
+           family = "Henry",
+           role = c("aut", "cre"),
+           email = "marylene.henry@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    shiny,
+    gapminder,
+    flextable,
+    ggplot2,
+    dplyr
